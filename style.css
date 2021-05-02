@@ -1,0 +1,163 @@
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
+}
+html {
+  font-size: 3.3px;
+}
+body{   
+    box-sizing: border-box;
+    max-width: 100%;
+    height: auto;
+}
+.p-text-style{
+  text-align: center; 
+  text-shadow: 1px 1px 2px #000; 
+  font-size: 4.5rem; 
+  font-style: italic; 
+  margin: 4rem 0;
+}
+.icon{
+  float: right; font-size: 4rem;
+}
+.bg-image{
+  background-image: url(img/bg-img.jpg);
+  opacity: .4;
+  height: 400px;
+  background-position: 50% 40%;
+}
+
+.navbar-style
+{
+    font-size: 3rem;
+    margin-left: auto;
+    margin-right: 0px;
+}
+.navbar-menu{
+  font-size: 3rem;
+}
+.navbar-link:hover{ 
+  color: black;
+  background-color: gray;
+  border-radius: 10px;
+}
+
+.home-page-text{
+  text-align: center;  
+  font-weight: bold; 
+  font-style: italic; 
+  font-size: 4.5rem; 
+  text-shadow: 1px 1px 1px #000; 
+  opacity: .9; 
+  position: absolute; 
+  top: 35%; 
+  padding: 0 14%;
+}
+.bg-contact{
+  background-image: url(img/contact-img.jpg);
+  opacity: .6;
+  height: 350px;
+  background-size: cover;
+  background-position: right;
+}
+.card-bg-color{
+  background-color: #A398D7;
+}
+.card-outlook{
+  margin: 15px auto;
+  border-radius: 5%;
+  box-shadow: rgba(0, 0, 0, 0.10) 0px 10px 20px, rgba(0, 0, 0, 0.10) 0px 6px 6px;
+}
+.card-all{
+  max-height: 300px;
+  overflow-y: auto;
+  font-size: medium; 
+  height: auto; 
+  background-color: #A398D7;
+}
+.card-text-style{
+  display: inline-block; 
+  font-size: 4rem;
+}
+.card-button{
+  text-decoration: none; 
+  color: black;
+}
+
+.contact-icon{
+    float: left;
+    font-size: 7rem;
+
+}
+.contact-item{
+    color: black;
+}
+.contact-item:hover ,.contact-item i:hover{
+    color: #1e71dd;
+    transition: 350ms;
+    font-size: 7rem;
+}
+
+@media (min-width: 576px) {
+	html {
+		font-size: 3.5px;
+	}	
+  .bg-image{
+    height:500px ;
+  }
+  .bg-contact{
+    height: 400px;
+  }
+  
+}
+@media (min-width: 768px) {
+
+	html {
+		font-size: 4.5px;
+	}
+  .bg-image{
+    height:550px ;
+  }
+  .bg-contact{
+    height: 500px;
+  } 
+}
+@media (min-width: 992px) {
+
+	html {
+		font-size: 5.5px;
+	}
+  .bg-image{
+    height:650px ;
+  }
+  .home-page-text{
+    font-size: 5.5rem;
+  }
+  .bg-contact{
+    height: 550px;
+  }
+}
+@media (min-width: 1200px) {
+
+	html {
+		font-size: 6px;
+	}
+  .bg-image{
+    height:800px ;
+  }
+  .for-navbar{
+    margin-right: 15px;
+  }
+  .home-page-text{
+    font-size: 7rem;
+  }
+  .bg-contact{
+    height: 600px;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+}
