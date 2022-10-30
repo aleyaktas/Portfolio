@@ -15,7 +15,7 @@ body{
 .p-text-style{
   text-align: center; 
   text-shadow: 1px 1px 2px #000; 
-  font-size: 4.5rem; 
+  font-size: 6rem; 
   font-style: italic; 
   margin: 4rem 0;
 }
@@ -42,6 +42,9 @@ body{
   color: black;
   background-color: gray;
   border-radius: 10px;
+}
+.navbar-toggler:hover {
+ box-shadow: none !important;
 }
 
 .item:hover{
@@ -114,6 +117,9 @@ body{
 }
 
 @media (min-width: 576px) {
+  * {
+    font-size: 10px;
+  }
 	html {
 		font-size: 3.5px;
 	}	
@@ -126,7 +132,9 @@ body{
   
 }
 @media (min-width: 768px) {
-
+  * {
+    font-size: 12px;
+  }
 	html {
 		font-size: 4.5px;
 	}
@@ -138,7 +146,9 @@ body{
   } 
 }
 @media (min-width: 992px) {
-
+  * {
+    font-size: 13px;
+  }
 	html {
 		font-size: 5.5px;
 	}
@@ -153,7 +163,9 @@ body{
   }
 }
 @media (min-width: 1200px) {
-
+  * {
+    font-size: 15px;
+  }
 	html {
 		font-size: 6px;
 	}
