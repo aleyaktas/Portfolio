@@ -2,7 +2,7 @@
   box-sizing: border-box;
   padding: 0px;
   margin: 0px;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 html {
   font-size: 3.3px;
@@ -44,6 +44,11 @@ body{
   border-radius: 10px;
 }
 
+.item:hover{
+  background-color: gray;
+  border-radius: 10px;
+}
+
 .home-page-text{
   text-align: center;  
   font-weight: bold; 
@@ -62,20 +67,24 @@ body{
   background-size: cover;
   background-position: right;
 }
+.card{
+  border: none !important;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;  
+  border-radius: 5rem !important;
+  overflow: auto;
+}
 .card-bg-color{
-  background-color: #A398D7;
+  background-color: #e9c46a;
 }
 .card-outlook{
   margin: 15px auto;
-  border-radius: 5%;
-  box-shadow: rgba(0, 0, 0, 0.10) 0px 10px 20px, rgba(0, 0, 0, 0.10) 0px 6px 6px;
 }
 .card-all{
   max-height: 300px;
   overflow-y: auto;
   font-size: medium; 
   height: auto; 
-  background-color: #A398D7;
+  padding: 5rem !important;
 }
 .card-text-style{
   display: inline-block; 
@@ -83,9 +92,13 @@ body{
 }
 .card-button{
   text-decoration: none; 
-  color: black;
+  color: white;
 }
-
+#button-item:hover{
+  background-color: #02b8ac !important;
+  color: white !important;
+  transition: all 0.3s 
+}
 .contact-icon{
     float: left;
     font-size: 7rem;
